@@ -1,0 +1,30 @@
+Hello assalam o alikum Today we will learn about Dartpad (variables & statements)
+
+void main() {
+  
+  print("Assalam-o-alikum");
+  
+  
+//   some e.g of writing variables in container
+//   kebab case: var First-name=("Maaz") dont use this becuse in dart we cant use it.
+  
+  //   snake case: var first_name:
+  var first_name=("Muhammad");
+ 
+//   camel case: var LastName
+  var lastName=("Maaz");
+  print(first_name+" "+lastName);
+  
+  
+  String name=("M.S"); // string is use to store statement type values in a  database
+  int age=18; // int is used to store integer values in a database
+  bool gamestats=(true); // boolean data type is use to store true and false value database
+  double height=5.4;  // double is used when we have decimal values in database
+  
+  print("Student Name is $name");
+  print("Student age is $age");
+  print("Student height is $height");
+  print("Student stats in game is $gamestats");
+
+}
+ 
