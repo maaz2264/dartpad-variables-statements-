@@ -1,0 +1,70 @@
+void main() {
+//   make a marksheet by taking inputs of subject and check obtainmarks and totalmarks and check the pass ratio and fail ration with the help of if / else condition.
+  
+  
+  print("MarkSheet");
+// starting from decleration veriables with subject marks
+num eng= 80;
+num pst= 40;
+num urdu= 50;
+num islam= 60;
+num maths= 60;
+
+//initialization of total marks e.g 550 or you can set yours.
+num total= 550;
+print("total marks is $total");
+// obtain marks and do sum of all subject marks
+num  obtainmarks= eng + pst + urdu + islam + maths;    
+print("Otain marks is $obtainmarks");
+//apply percentage forumla
+num per= obtainmarks * 100/total;
+print("percentage is ${per.toStringAsFixed(2)}");
+
+//  apply if else condtion to ceck in which subject studdent is fail or pass.
+if(per >=50)
+  {
+    print("pass");
+  } 
+  
+  else
+  {
+    print("fail");
+  }
+  
+  if(per >=30)
+  {
+    print("pass");
+  }
+  
+  else{
+    print("Fail");
+  }
+  
+    if(per >=50)
+  {
+    print("pass");
+  }
+  
+  else{
+    print("Fail");
+  }
+      if(per >=50)
+  {
+    print("pass");
+  }
+  
+  else{
+    print("Fail");
+  }
+  
+  
+      if(per >=50)
+  {
+    print("pass");
+  }
+  
+  else{
+    print("Fail");
+  }
+  
+}
